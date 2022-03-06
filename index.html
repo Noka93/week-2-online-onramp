@@ -8,7 +8,30 @@
     <title>Week-2-Task</title>
   </head>
   <body>
-    <h1>Week 2 Task</h1>
+    <div class="form_fill">
+      <div class="contact">
+        CONTACT US
+        <hr />
+      </div>
+      <div class="flex">
+        <form name="newForm" onsubmit="return validationForm()">
+          <input type="text" placeholder="NAME" id="name" />
+          <input type="email" placeholder="EMAIL" id="email" />
+          <input type="tel" placeholder="NUMBER" id="number" />
+          <textarea
+            name="message"
+            placeholder="MESSAGE"
+            id="message"
+            cols=""
+            rows=""
+          ></textarea>
+          <div>
+            <button class="cancel">CANCEL</button>
+            <button class="send">SEND</button>
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
   <script src="./frontend/script.js"></script>
 </html>
